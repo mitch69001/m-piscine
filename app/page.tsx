@@ -21,11 +21,11 @@ export default function Home() {
               </div>
               
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                Trouvez votre pisciniste près de chez vous
+                Trouvez le pisciniste idéal pour votre projet piscine
               </h1>
               
               <p className="text-xl md:text-2xl text-primary-100 mb-8">
-                Comparez les devis gratuits pour construction, entretien et rénovation de piscines. Piscinistes certifiés dans votre région.
+                Comparez les devis de piscinistes qualifiés près de chez vous pour construction, entretien et rénovation de piscines
               </p>
               
               {/* City Search */}
@@ -80,7 +80,7 @@ export default function Home() {
               Comment ça marche ?
             </h2>
             <p className="text-xl text-gray-600">
-              Décrivez votre projet piscine en quelques clics et recevez jusqu'à 5 devis personnalisés de piscinistes qualifiés de votre région. Comparez les offres, consultez les avis clients et choisissez le professionnel qui correspond à vos attentes et votre budget.
+              Décrivez votre projet piscine en quelques clics et recevez jusqu'à 5 devis personnalisés de piscinistes sélectionnés dans votre région. Comparez les offres, les délais et choisissez le professionnel qui correspond le mieux à vos attentes et votre budget.
             </p>
           </div>
 
@@ -127,23 +127,23 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                         <div className="bg-primary-50 rounded-xl p-6 border-2 border-primary-100 hover:border-primary-300 transition-all">
               <div className="text-4xl mb-3">💰</div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Devis gratuits et sans engagement en 24h</h3>
-              <p className="text-gray-600">Devis gratuits et sans engagement en 24h</p>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Devis gratuits et sans engagement de piscinistes qualifiés</h3>
+              <p className="text-gray-600">Devis gratuits et sans engagement de piscinistes qualifiés</p>
             </div>
             <div className="bg-primary-50 rounded-xl p-6 border-2 border-primary-100 hover:border-primary-300 transition-all">
               <div className="text-4xl mb-3">🌍</div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Piscinistes vérifiés et expérimentés près de chez vous</h3>
-              <p className="text-gray-600">Piscinistes vérifiés et expérimentés près de chez vous</p>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Comparaison simple des prix et prestations</h3>
+              <p className="text-gray-600">Comparaison simple des prix et prestations</p>
             </div>
             <div className="bg-primary-50 rounded-xl p-6 border-2 border-primary-100 hover:border-primary-300 transition-all">
               <div className="text-4xl mb-3">🏠</div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Accompagnement personnalisé de votre projet piscine</h3>
-              <p className="text-gray-600">Accompagnement personnalisé de votre projet piscine</p>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Professionnels vérifiés et recommandés par leurs clients</h3>
+              <p className="text-gray-600">Professionnels vérifiés et recommandés par leurs clients</p>
             </div>
             <div className="bg-primary-50 rounded-xl p-6 border-2 border-primary-100 hover:border-primary-300 transition-all">
               <div className="text-4xl mb-3">🎁</div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Économisez jusqu'à 30% en comparant les prix</h3>
-              <p className="text-gray-600">Économisez jusqu'à 30% en comparant les prix</p>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Accompagnement personnalisé de votre projet de A à Z</h3>
+              <p className="text-gray-600">Accompagnement personnalisé de votre projet de A à Z</p>
             </div>
           </div>
         </div>
@@ -189,26 +189,26 @@ export default function Home() {
           <div className="space-y-6">
                         <details className="bg-gray-50 rounded-xl p-6 hover:bg-gray-100 transition-all cursor-pointer">
               <summary className="text-lg font-semibold text-gray-900 cursor-pointer">
-                Combien coûte la construction d'une piscine ?
+                Quel est le coût moyen d'une piscine enterrée ?
               </summary>
               <p className="mt-4 text-gray-600">
-                Le prix d'une piscine varie selon le type : piscine hors-sol (500€ à 15 000€), piscine coque (15 000€ à 30 000€), piscine béton (20 000€ à 50 000€). Les dimensions, équipements et finitions influencent le coût final. Nos piscinistes établissent des devis personnalisés selon vos besoins.
+                Le prix d'une piscine enterrée varie de 15 000€ à 50 000€ selon les dimensions, matériaux et équipements choisis. Une piscine coque polyester coûte généralement entre 15 000€ et 25 000€, tandis qu'une piscine béton peut aller de 20 000€ à 50 000€. Les piscinistes de notre réseau vous fourniront des devis détaillés adaptés à votre projet.
               </p>
             </details>
             <details className="bg-gray-50 rounded-xl p-6 hover:bg-gray-100 transition-all cursor-pointer">
               <summary className="text-lg font-semibold text-gray-900 cursor-pointer">
-                Quand faut-il entretenir sa piscine ?
+                Quelles sont les étapes de construction d'une piscine ?
               </summary>
               <p className="mt-4 text-gray-600">
-                L'entretien régulier est essentiel : nettoyage hebdomadaire, contrôle du pH et chlore, vidange partielle mensuelle. Un entretien professionnel saisonnier (ouverture/fermeture) garantit une eau saine et prolonge la durée de vie de votre piscine.
+                La construction d'une piscine comprend : l'étude de faisabilité et demande de permis, le terrassement et l'excavation, la pose de la structure (coque ou coulage béton), l'installation de la plomberie et électricité, les finitions (carrelage, margelles) et la mise en eau. Un pisciniste qualifié coordonne toutes ces étapes sur 4 à 8 semaines selon le projet.
               </p>
             </details>
             <details className="bg-gray-50 rounded-xl p-6 hover:bg-gray-100 transition-all cursor-pointer">
               <summary className="text-lg font-semibold text-gray-900 cursor-pointer">
-                Faut-il un permis pour construire une piscine ?
+                À quelle fréquence faut-il entretenir sa piscine ?
               </summary>
               <p className="mt-4 text-gray-600">
-                Pour une piscine de moins de 10m², aucune autorisation n'est requise. Entre 10m² et 100m², une déclaration préalable suffit. Au-delà de 100m² ou avec abri de plus de 1,80m, un permis de construire est obligatoire. Votre pisciniste vous accompagne dans ces démarches.
+                L'entretien d'une piscine nécessite un nettoyage hebdomadaire (skimmer, ligne d'eau, fond), un contrôle chimique 2-3 fois par semaine et une vidange partielle mensuelle. Un entretien professionnel trimestriel est recommandé. Nos piscinistes proposent des contrats d'entretien adaptés à vos besoins pour une eau cristalline toute l'année.
               </p>
             </details>
           </div>

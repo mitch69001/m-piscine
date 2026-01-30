@@ -9,8 +9,8 @@ import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Pisciniste près de chez vous | Devis gratuit piscine',
-  description: 'Trouvez un pisciniste qualifié pour construction, entretien et rénovation piscine. Comparez les devis gratuits. Artisans vérifiés près de chez vous.',
+  title: 'Pisciniste : Trouvez le professionnel près de chez vous',
+  description: 'Annuaire de piscinistes qualifiés. Comparez les devis pour construction, entretien et rénovation piscine. Gratuit et sans engagement.',
   keywords: 'panneaux solaires, photovoltaïque, installateur, RGE, devis gratuit',
   other: {
     'google-site-verification': 'Y74BsOrkaE0iB9j_uqHm48INAB7U7ieozILdckpntJI',

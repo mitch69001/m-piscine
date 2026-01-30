@@ -18,8 +18,13 @@ export const authOptions: NextAuthOptions = {
           throw new Error('Email et mot de passe requis')
         }
 
-        const admin = await prisma.admin.findUnique({
-          where: { email: credentials.email }
+        const siteId = process.env.SITE_ID || null
+
+        const admin = await prisma.admin.findFirst({
+          where: { 
+            email: credentials.email,
+            siteId: siteId
+          }
         })
 
         if (!admin || !admin.active) {
